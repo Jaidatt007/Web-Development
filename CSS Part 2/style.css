@@ -1,0 +1,66 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+h1, h3{
+    color: coral;
+}
+
+#login{
+    background-color: white;
+}
+#signup{
+    color: white;
+    background-color: red;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+
+p a{
+    background-color: yellow;
+}
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+}
+
+div > input{
+    background-color: blanchedalmond;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    border-color:slateblue;
+}
+input[type="password"]{
+    border-color: blue;
+}
+
+/* Practice Question 13 */
+div[id="myId"] p{
+    color: green;
+}
+
+/* Pseudo Class */
+button:hover{
+    font-weight: bold;
+}
+p:active{
+    color:blue;
+}
+input[name="Agreement"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
+
+ol li:nth-of-type(odd){
+    font-weight: bolder;
+    color: red;
+}
