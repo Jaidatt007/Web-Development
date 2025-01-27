@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+#div1{
+    transition: 1s;
+    margin: 10px;
+}
+
+#div1:hover{
+    background-color: rebeccapurple;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+#div2{
+    margin: 10px;
+    transition: 2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+#div2:hover{
+    margin-left: 400px;
+    background-color: rebeccapurple;
+    border-radius: 100%;
+}

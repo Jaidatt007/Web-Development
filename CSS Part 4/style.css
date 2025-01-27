@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+}
+
+#id1{
+    background-color: rgba(86,172,256,0.4) !important;
+}
+
+#id2{
+    background-color: #56ACFF;
+    opacity: 0.4;
+}

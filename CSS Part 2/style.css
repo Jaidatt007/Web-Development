@@ -5,6 +5,9 @@
 h1, h3{
     color: coral;
 }
+h1::first-letter{
+    color: greenyellow;
+}
 
 #login{
     background-color: white;
@@ -63,4 +66,8 @@ input[name="Agreement"]:checked + label{
 ol li:nth-of-type(odd){
     font-weight: bolder;
     color: red;
+}
+
+body p::first-line{
+    color: blue;
 }
